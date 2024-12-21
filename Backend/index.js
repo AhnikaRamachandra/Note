@@ -7,6 +7,7 @@ const Note=require("./models/note.model")
 const express=require("express");
 const cors=require('cors');
 const app=express();
+const port=8000||process.env.PORT
 const jwt=require("jsonwebtoken");
 const { authenticatetoken}=require("./utilities")
 app.use(express.json());
