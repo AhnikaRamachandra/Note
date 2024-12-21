@@ -1,0 +1,40 @@
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database dumps
+*.db
+*.sqlite
+*.sql
+dump.rdb
+*.log.*
+
+# Process IDs
+pids/
+*.pid
+*.seed
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+*.swp
